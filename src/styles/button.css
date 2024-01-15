@@ -1,0 +1,31 @@
+.buttonWrapper {
+	user-select: none;
+	cursor: pointer;
+	height: 4em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: lighter;
+	font-size: 1.4em;
+	background: #e0e1e6(340deg 100% 32%);
+	color: #888;
+	flex: 1;
+	outline-offset: 4px;
+	padding: 2.5rem;
+	width: 5rem;
+	border-radius: 50px;
+}
+
+.buttonWrapper:active .popout {
+	transform: translateY(-2px);
+}
+
+.operator-button {
+	background-color: #fe9241;
+	color: white;
+}
+
+.ac-button {
+	background-color: #1d65f5;
+	color: white;
+}
